@@ -19,6 +19,7 @@ PImage wonder;
 int screen = 0;
 
 
+
 void setup()
 {
   fullScreen(); 
@@ -248,6 +249,7 @@ void draw()
 
 }
 
+
 void HPCursedChild()
 {
   background(155, 200, 255);
@@ -333,6 +335,11 @@ void CityofBones()
   text(" “Just coffee. Black—like my soul.”", width/2, height/2); 
   textSize(12);
 } 
+
+void keyPressed()
+{
+ screen = 0; 
+}
 
 void CityofAshes() 
 {
